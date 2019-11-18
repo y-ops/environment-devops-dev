@@ -3,16 +3,12 @@ autoUpdate:
   schedule: ""
 bootConfigURL: https://github.com/yields-io/environment-devops-dev
 cluster:
-  clusterName: devops
-  environmentGitOwner: yields-io
-  gitKind: github
-  gitName: github
-  gitServer: https://github.com
-  namespace: jx
-  project: y-k8s-240607
+  clusterName: ""
+  environmentGitOwner: ""
+  environmentGitPublic: false
+  project: ""
   provider: gke
   zone: ""
-  environmentGitPublic: false
 gitops: true
 environments:
 - ingress:
