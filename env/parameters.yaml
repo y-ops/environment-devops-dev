@@ -1,0 +1,15 @@
+adminUser:
+  password: vault:devops/adminUser:password
+  username: admin
+docker:
+  email: ops@yields.io
+  password: vault:devops/docker:password
+  url: https://build.yields.io
+  username: y-ops
+enableDocker: true
+pipelineUser:
+  email: ops@yields.io
+  token: vault:devops/pipelineUser:token
+  username: y-ops
+prow:
+  hmacToken: vault:devops/prow:hmacToken
