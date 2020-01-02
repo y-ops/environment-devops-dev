@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: yields-io
+  repo: jx-foundation
+  url: https://github.com/yields-io/jx-foundation.git
+  version: ""
+  versionURL: ""

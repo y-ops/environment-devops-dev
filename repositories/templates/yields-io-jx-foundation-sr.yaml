@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: yields-io
+    provider: github
+    repository: jx-foundation
+  name: yields-io-jx-foundation
+spec:
+  description: Imported application for yields-io/jx-foundation
+  httpCloneURL: https://github.com/yields-io/jx-foundation.git
+  org: yields-io
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: jx-foundation
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/yields-io/jx-foundation.git
