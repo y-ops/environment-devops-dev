@@ -5,3 +5,9 @@ dependencies:
   url: https://github.com/yields-io/jx-foundation.git
   version: ""
   versionURL: ""
+- host: github.com
+  owner: yields-io
+  repo: dind
+  url: https://github.com/yields-io/dind.git
+  version: ""
+  versionURL: ""
