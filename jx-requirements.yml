@@ -3,13 +3,11 @@ autoUpdate:
   schedule: ""
 bootConfigURL: https://github.com/yields-io/environment-devops-dev
 cluster:
-  clusterName: ""
-  environmentGitOwner: ""
-  environmentGitPublic: false
-  project: ""
+  gitKind: github
+  gitName: github
+  gitServer: https://github.com
+  namespace: jx
   provider: gke
-  zone: ""
-gitops: true
 environments:
 - ingress:
     cloud_dns_secret_name: external-dns-gcp-sa
@@ -68,6 +66,6 @@ storage:
 vault: {}
 velero: {}
 versionStream:
-  ref: v1.0.271
+  ref: 1a788aacb9def7f4e0c6a1b47b90a273516ffffd
   url: https://github.com/jenkins-x/jenkins-x-versions.git
 webhook: prow
