@@ -1,6 +1,6 @@
 autoUpdate:
-  enabled: false
-  schedule: ""
+  enabled: true
+  schedule: "0 0 * * *"
 bootConfigURL: https://github.com/yields-io/environment-devops-dev
 cluster:
   clusterName: devops
